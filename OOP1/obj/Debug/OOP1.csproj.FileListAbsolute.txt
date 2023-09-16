@@ -1,0 +1,8 @@
+D:\Univer\OOP1\OOP_Laba_1\OOP1\bin\Debug\OOP1.exe.config
+D:\Univer\OOP1\OOP_Laba_1\OOP1\bin\Debug\OOP1.exe
+D:\Univer\OOP1\OOP_Laba_1\OOP1\bin\Debug\OOP1.pdb
+D:\Univer\OOP1\OOP_Laba_1\OOP1\obj\Debug\OOP1.csproj.AssemblyReference.cache
+D:\Univer\OOP1\OOP_Laba_1\OOP1\obj\Debug\OOP1.csproj.SuggestedBindingRedirects.cache
+D:\Univer\OOP1\OOP_Laba_1\OOP1\obj\Debug\OOP1.csproj.CoreCompileInputs.cache
+D:\Univer\OOP1\OOP_Laba_1\OOP1\obj\Debug\OOP1.exe
+D:\Univer\OOP1\OOP_Laba_1\OOP1\obj\Debug\OOP1.pdb
