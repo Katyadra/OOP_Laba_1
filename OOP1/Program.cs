@@ -2,35 +2,35 @@
 
 namespace OOP1
 {
-    public class NumbManip
+    public class NumbManip // Класс для манипуляции с числами
     {
         public int result;
-        public int Summ(int a, int b)
+        public int Summ(int a, int b) // метод для суммы
         {
             result = a + b;
             return result;
         }
-        public int Minus(int a, int b)
+        public int Minus(int a, int b) // метод для вычитания
         {
             result = a - b;
             return result;
         }
-        public int Multip(int a, int b)
+        public int Multip(int a, int b) // метод для умножения
         {
             result = a * b;
             return result;
         }
-        public int Del(int a, int b)
+        public int Del(int a, int b) // метод для целочисленного деления
         {
             result = a / b;
             return result;
         }
-        public int Ostat(int a, int b)
+        public int Ostat(int a, int b) // метод для остатка
         {
             result = a % b;
             return result;
         }
-        public void Output()
+        public void Output() // метод для вывода
         {
             Console.WriteLine($"Результат: {result}");
         }
@@ -40,39 +40,39 @@ namespace OOP1
     {
         static void Main(string[] args)
         {
-            int a, b, r;
-            char p;
-            NumbManip res = new NumbManip();
+            int a, b, r; // Переменные для чисел
+            char p; // Переменная для операции
+            NumbManip res = new NumbManip(); // создание нового объекта
             Console.WriteLine($"Введите первое число: ");
-            a = int.Parse(Console.ReadLine());
+            a = int.Parse(Console.ReadLine()); // Ввод первого числа
             Console.WriteLine($"Введите второе число: ");
-            b = int.Parse(Console.ReadLine());
+            b = int.Parse(Console.ReadLine()); // Ввод второго числа
             Console.WriteLine($"Выберите желаемую операцию: ");
-            p = char.Parse(Console.ReadLine());
-            if (p == '+')
+            p = char.Parse(Console.ReadLine()); // Выбор операции
+            if (p == '+') 
             {
-                r = res.Summ(a, b);
-                res.Output();
+                res.Summ(a, b); // Вызов метода
+                res.Output(); // Вывод
             }
             if (p == '-')
             {
-                r = res.Minus(a, b);
-                res.Output();
+                res.Minus(a, b); // Вызов метода
+                res.Output(); // Вывод
             }
             if (p == '*')
             {
-                r = res.Multip(a, b);
-                res.Output();
+                res.Multip(a, b); // Вызов метода
+                res.Output(); // Вывод
             }
             if (p == '/')
             {
-                r = res.Del(a, b);
-                res.Output();
+                res.Del(a, b); // Вызов метода
+                res.Output(); // Вывод
             }
             if (p == '%')
             {
-                r = res.Ostat(a, b);
-                res.Output();
+                res.Ostat(a, b); // Вызов метода
+                res.Output(); // Вывод
             }
         }
     }
